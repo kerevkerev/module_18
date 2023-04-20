@@ -1,0 +1,39 @@
+.header {
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.header__inner {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    z-index: 100;
+
+    .logo {
+        display: block;
+        height: 70px;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        font-size: 40px;
+
+    }
+
+    .nav__link {
+        list-style-type: none;
+        display: flex;
+
+        a {
+            text-decoration: none;
+            margin-left: 70px;
+            color: rgb(241, 235, 243);
+            font-size: 20px;
+            font-weight: bold;
+        }
+        a:hover{
+            color: rgb(0, 255, 221);
+            transition: 0.2s;
+        }
+    }
+}

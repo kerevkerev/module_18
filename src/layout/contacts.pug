@@ -1,0 +1,19 @@
+include ../pug/libs/_libs.pug
+
+
+doctype html
+html(lang='en')
+    include ../pug/_head.pug
+    body
+        header.header 
+            .container
+                .header__inner
+                    .nav
+                        .nav__link 
+                            li
+                                a(href="/index.html") HOME
+                    .logo KEKS
+                        //- +logo('logo') 
+
+        include ../pug/_main
+        include ../pug/_footer

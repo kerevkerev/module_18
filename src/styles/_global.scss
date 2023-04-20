@@ -1,0 +1,40 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+
+    font-family: 'Montserrat', sans-serif;
+    overflow-y: scroll;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #faefef;
+    background: #11151C;
+}
+
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
