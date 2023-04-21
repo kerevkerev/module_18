@@ -8,12 +8,12 @@
     margin-top: 15px;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
     z-index: 100;
 
     .logo {
         display: block;
-        height: 70px;
+        height: 150px;
         color: rgb(255, 255, 255);
         font-weight: bold;
         font-size: 40px;
@@ -26,14 +26,26 @@
 
         a {
             text-decoration: none;
+
             margin-left: 70px;
             color: rgb(241, 235, 243);
             font-size: 20px;
             font-weight: bold;
         }
-        a:hover{
-            color: rgb(0, 255, 221);
-            transition: 0.2s;
+
+        a:hover {
+            color: #0694D4;
+            color: #fff;
+            text-shadow:
+                0 0 7px #fff,
+                0 0 10px #fff,
+                0 0 21px #fff,
+                0 0 42px #0fa,
+                0 0 82px #0fa,
+                0 0 92px #0fa,
+                0 0 102px #0fa,
+                0 0 151px #0fa;
+            transition: .2s;
         }
     }
 }

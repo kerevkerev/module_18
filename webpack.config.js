@@ -13,7 +13,8 @@ module.exports = {
     mode: mode,
     output: {
         assetModuleFilename: "asset/[hash][ext][query]",
-        clean: true
+        clean: true,
+        publicPath: '/',
     },
 
     devServer: {
